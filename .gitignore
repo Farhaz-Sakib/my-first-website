@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env*
+!.env.example
+android/.gradle/
+android/local.properties
+android/**/build/
+*.log
+
+test-results/
+playwright-report/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+
+__pycache__/
